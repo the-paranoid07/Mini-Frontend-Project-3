@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Quattrocento', serif;
+    /* color: white;
+    background-color: black */
+    ;
+}
+.nav-bar{
+    color: white;
+    height: 50px;
+    padding: 0px 20px;
+    display: flex;;
+    justify-content: space-between;
+    background-color: black;
+    z-index: 999;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+.social-items img{
+    width:25px;
+    z-index: 1000;
+}
+.nav-menu{
+    display: flex;
+    align-items: center;
+    column-gap: 25px;
+}
+.social-icons{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    justify-content: end
+    
+}
+.nav-items a{
+    text-decoration: none;
+    color: white;
+    font-weight: 170;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.main-image {
+    margin-top: 50px;
+    color: white;
+    position: relative;
+    height: 80vh;
+    /* border: 2px solid white; */
+    content: cover;
+    background-image: url(images/pizza.jpeg);
+    background-size: cover;
+    
+}
+.main-image .content-desr{
+    height: 30vh;
+    width: 50vh;
+    line-height: 25px;
+    /* border: 1px solid white; */
+    position: absolute;
+    top: 250px;
+    left: 65px;
+    font-weight:500;
+}
+.main-image .content-head{
+    height: 30vh;
+    width: 70vh;
+    font-size: 40px;
+    position: absolute;
+    top: 50px;
+    left: 65px;
+}
+.main-content .red-line{
+ box-sizing: border-box;
+position: absolute;
+width: 340px;
+height: 8px;
+left: 65px;
+top: 200px;
+
+background: #F24C4C;
+box-shadow: 3px 6px 18px rgba(0, 0, 0, 0.25);
+}
+.about-us{
+    height: 80vh;
+    color: white;
+    background-color: #000000;
+    
+}
+.about-head{
+    display: flex;
+    font-size: 40px;
+    justify-content: center;
+    padding-top: 30px;
+
+}
+.about-content{
+    display: flex;
+    padding-top: 80px;
+    justify-content:center;
+    align-items: center;
+    column-gap: 400px;
+}
+.about-desr{
+    height: 30vh;
+    width: 50vh;
+    font-size: 20px;
+}
+.about-content img{
+    width: 400px;
+}
+
+.footer{
+    position: relative;
+    color: white;
+    background-color: black;
+    display: flex;
+}
+.contact-us{
+    position: absolute;
+    right: 60px;
+    bottom: 10px;
+}
+.contact-us img{
+    width: 20%;
+}
+.find-us{
+    height: 80vh;
+    color: white;
+    background-color: #000000;
+    position: relative;
+}
+.find-head{
+    display: flex;
+    font-size: 40px;
+    justify-content: center;
+    padding-top: 30px;
+}
+.find-desr{
+    margin-top: 5vh;
+    height: 30vh;
+    width: 70vh;
+    font-size: 20px;
+}
+.find-content{
+    margin-top: 12vh;
+    display: flex;
+    justify-content: space-around;
+}
+.find-us-contact img{
+    width: 20%;
+}
+.find-map img{
+width: 500px;
+}
+.find-us-contact{
+    position: absolute;
+}
+.menu{
+    height: 110vh;
+    color: white;
+    background-color: #000000;
+}
+.menu-head{
+    display: flex;
+    font-size: 40px;
+    justify-content: center;
+    padding-top: 30px;
+}
+.menu-content{
+    margin-top: 3%;
+    height: 10px;
+    width: 900px;
+    margin-left: 20%;
+}
+.menu img{
+    width: 30%;
+    margin-bottom:50px ;
+}
+.grid-items{
+    margin-top: 15vh;
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    
+}
+.grid-items h3{
+    color: #F2C94C;
+}
+.grid-items img{
+    width: 50%;
+    padding-left: 100px;
+}
+.pizza-image{
+    line-height: 20px;
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    
+    
+}
